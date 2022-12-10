@@ -1,0 +1,29 @@
+.disp {
+  position: relative;
+  box-sizing: border-box;
+  padding: 50px;
+  width: 92vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  column-gap: 1.4%;
+  row-gap: 20px;
+}
+
+.card {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(223, 223, 223);
+}
+.des {
+  position: absolute;
+  top: 320px;
+  max-height: 150px;
+}
+.pri {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  width: 50%;
+}
